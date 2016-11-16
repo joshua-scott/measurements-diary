@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="exercise_5.ReadWrite" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="8" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="exercise_5.ReadWriteDialog">
+    <Position X="6.25" Y="7.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAQAAAAAAAAAAAAhAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWriteDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exercise_5.MainWindow">
+    <Position X="6.75" Y="1.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAQBgAAAAAABAAAASoIARgAAAAwBFgAAEA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cmhandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="exercise_5.CommandHandler">
+    <Position X="14.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAICAAAAAAAAAAAAAAAAAAAEAACAEAAAA=</HashCode>
+      <FileName>CommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Window" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="exercise_5.ReadWriteCSV">
+    <Position X="20.75" Y="8" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWriteCSV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="exercise_5.IReadWrite">
+    <Position X="15" Y="5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
