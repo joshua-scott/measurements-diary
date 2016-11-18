@@ -1,21 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="exercise_5.ReadWrite" BaseTypeListCollapsed="true">
-    <Position X="14.75" Y="8" Width="4.25" />
+  <Class Name="MeasurementsDiary.ReadWrite" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="6.75" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>ReadWrite.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="exercise_5.ReadWriteDialog">
-    <Position X="6.25" Y="7.75" Width="4.25" />
-    <TypeIdentifier>
-      <HashCode>ACAAAAACAAAAQAAAAAAAAAAAAhAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>ReadWriteDialog.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="exercise_5.MainWindow">
+  <Class Name="MeasurementsDiary.MainWindow">
     <Position X="6.75" Y="1.5" Width="5.5" />
     <TypeIdentifier>
       <HashCode>AEAAEAAAAAAQBgAAAAAABAAAASoIARgAAAAwBFgAAEA=</HashCode>
@@ -25,24 +18,38 @@
       <Field Name="cmhandler" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="exercise_5.CommandHandler">
+  <Class Name="MeasurementsDiary.CommandHandler">
     <Position X="14.5" Y="2.25" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAICAAAAAAAAAAAAAAAAAAAEAACAEAAAA=</HashCode>
+      <HashCode>AAAAAIAAAAQAICAAAAAAAAAAAAAAAAAAAEAACAGAAAA=</HashCode>
       <FileName>CommandHandler.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Window" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="exercise_5.ReadWriteCSV">
-    <Position X="20.75" Y="8" Width="4.25" />
+  <Class Name="MeasurementsDiary.ReadWriteCSV">
+    <Position X="15.75" Y="8.5" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>ReadWriteCSV.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="exercise_5.IReadWrite">
+  <Class Name="MeasurementsDiary.ReadWriteDialog">
+    <Position X="6.75" Y="7.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReadWriteDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeasurementsDiary.ReadWriteMPK">
+    <Position X="12.25" Y="8.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWriteMPK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MeasurementsDiary.IReadWrite">
     <Position X="15" Y="5" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>

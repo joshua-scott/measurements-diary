@@ -161,5 +161,20 @@ namespace MeasurementsDiary
                 }
             }
         }
+
+        public void Close()
+        {
+            MessageBoxResult choice = MessageBox.Show("Save before closing?", "Unsaved changes", MessageBoxButton.YesNoCancel, MessageBoxImage.Warning);
+
+            if (choice == MessageBoxResult.Yes)
+            {
+                Save(true);
+                Window.Close();
+            }
+            else if (choice == MessageBoxResult.No)
+            {
+                Window.Close();
+            }
+        }
     }
 }

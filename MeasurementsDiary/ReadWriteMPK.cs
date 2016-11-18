@@ -17,7 +17,6 @@ namespace MeasurementsDiary
             // Try to read file contents
             try
             {
-                StreamReader sr = new StreamReader(filename);
                 contents[0] = File.ReadLines(filename).Skip(0).Take(1).First();
                 contents[1] = File.ReadLines(filename).Skip(1).Take(1).First();
             }
@@ -27,7 +26,6 @@ namespace MeasurementsDiary
                 MessageBox.Show("Error at ReadWriteMPK.ReadFile()");
             }
 
-            // Must cast from StringBuilder to string
             return contents;
         }
 

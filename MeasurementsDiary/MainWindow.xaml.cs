@@ -129,7 +129,7 @@ namespace MeasurementsDiary
 
         private void Close_CommandBinding_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            this.Close();
+            cmhandler.Close();
         }
 
         private void Random_Click(object sender, RoutedEventArgs e)
